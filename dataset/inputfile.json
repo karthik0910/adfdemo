@@ -1,0 +1,80 @@
+{
+	"name": "inputfile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "titanic_dataset.csv",
+				"container": "adfdemocont"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "pclass",
+				"type": "String"
+			},
+			{
+				"name": "survived",
+				"type": "String"
+			},
+			{
+				"name": "name",
+				"type": "String"
+			},
+			{
+				"name": "sex",
+				"type": "String"
+			},
+			{
+				"name": "age",
+				"type": "String"
+			},
+			{
+				"name": "sibsp",
+				"type": "String"
+			},
+			{
+				"name": "parch",
+				"type": "String"
+			},
+			{
+				"name": "ticket",
+				"type": "String"
+			},
+			{
+				"name": "fare",
+				"type": "String"
+			},
+			{
+				"name": "cabin",
+				"type": "String"
+			},
+			{
+				"name": "embarked",
+				"type": "String"
+			},
+			{
+				"name": "boat",
+				"type": "String"
+			},
+			{
+				"name": "body",
+				"type": "String"
+			},
+			{
+				"name": "home.dest",
+				"type": "String"
+			}
+		]
+	}
+}
