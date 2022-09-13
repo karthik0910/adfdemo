@@ -5,11 +5,11 @@
 		"factoryName": {
 			"value": "adfdemopipelineci"
 		},
-		"AzureKeyVaultdemoservice_properties_typeProperties_baseUrl": {
-			"value": "https://adfdemokey1991.vault.azure.net/"
-		},
 		"AzureBlobStorage1_properties_typeProperties_connectionString_secretName": {
 			"value": "adfstorage"
+		},
+		"AzureKeyVaultdemoservice_properties_typeProperties_baseUrl": {
+			"value": "https://adfdemokey1991.vault.azure.net/"
 		},
 		"containerUri": {
 			"value": ""
