@@ -1,0 +1,9 @@
+{
+	"name": "adfdemopipelineci",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e1bea1e2-9705-4dcf-a4d6-903b2e7f8782",
+		"tenantId": "148682f5-dd41-4477-b781-867115198b06"
+	}
+}
