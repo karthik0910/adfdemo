@@ -49,13 +49,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "inputfile",
+						"referenceName": "input2",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "outputdataset",
+						"referenceName": "output2",
 						"type": "DatasetReference"
 					}
 				]
