@@ -1,0 +1,10 @@
+{
+	"name": "AzureKeyVaultdemoservice",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://adfdemokey1991.vault.azure.net/"
+		}
+	}
+}
